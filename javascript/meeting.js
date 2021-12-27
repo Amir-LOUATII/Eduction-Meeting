@@ -76,7 +76,7 @@ function displayEvent(id) {
       </div>
       <div class="details">
         <div class="hours">
-          <h2>hours</h2>
+          <h2>Hours</h2>
           <span>Monday - Friday: 07:00 AM - 13:00 PM</span>
           <span>Saturday- Sunday: 09:00 AM - 15:00 PM </span>
         </div>
