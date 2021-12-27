@@ -498,6 +498,12 @@ header .container ul li .pages a:hover {
   flex: 4;
 }
 
+@media (max-width: 767px) {
+  .meetings .container .content .col:last-of-type {
+    margin-left: 0;
+  }
+}
+
 .meetings .container .content .col:last-of-type .box {
   background-color: var(--bs-gray-100);
   max-width: 410px;
@@ -834,10 +840,12 @@ header .container ul li .pages a:hover {
   align-items: center;
   margin: 0 10px 20px;
   border-radius: 20px;
+  max-width: 100%;
 }
 @media (max-width: 991px) {
   .facts .container .col:first-of-type .box .card {
     width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -1050,6 +1058,7 @@ header .container ul li .pages a:hover {
     align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
+    margin-left: 0;
   }
 }
 
@@ -1118,8 +1127,8 @@ footer {
   background-image: url(../images/meetings-bg.jpg);
   block-size: cover;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 footer p {
